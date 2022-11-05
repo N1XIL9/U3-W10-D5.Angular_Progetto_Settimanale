@@ -1,4 +1,8 @@
-<ul *ngFor="let td of todo">
-  <li (click)="taskDone(td.id)">{{ td.id }} {{ td.title }} <span *ngIf="td.completed">V</span></li>
-</ul>
-<input [(ngModel)]="title" type="text" required /> <button (click)="addTask(title)">+</button>
+<div class="container-list">
+  <div *ngFor="let td of todo">
+    <li (click)="taskDone(td.id)">
+      {{ td.id }} {{ td.title }} <span *ngIf="td.completed"><i class="fa-solid fa-check"></i></span>
+    </li>
+  </div>
+  <input [(ngModel)]="title" type="text" required placeholder="Add task..." /> <button (click)="addTask(title)"><i class="fa-solid fa-plus"></i></button>
+</div>

@@ -9,7 +9,7 @@ import { TodosService } from "src/todolist/todos.service";
 export class TodoListPage implements OnInit {
   todo: Todo[] = [];
   title?: string;
-  id = 0;
+  id = "";
 
   constructor(private todosService: TodosService) {
     this.todo = this.todosService.todo;

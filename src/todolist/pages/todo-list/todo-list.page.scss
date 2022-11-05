@@ -1,14 +1,37 @@
 li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
   list-style: none;
   cursor: pointer;
+  color: white;
+  font-size: 1.3rem;
 }
 
 span {
-  background-color: greenyellow;
+  float: inline-end;
+  background-color: rgb(0, 232, 89);
   color: white;
-  padding: 5px;
+  padding: 2px;
   border-radius: 5px;
-  border: 1px solid gray;
   font-weight: 900;
   cursor: pointer;
+}
+
+button {
+  padding: 6px 13px 6px 13px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 5px;
+  background-color: #21415f;
+  color: white;
+}
+
+input {
+  width: 190px;
+  height: 21px;
+  /* border: none; */
+  /* border: darkolivegreen; */
+  border: 2px solid #21415f;
+  border-radius: 5px;
 }

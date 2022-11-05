@@ -1,17 +1,26 @@
 .container {
+  background-image: url(../assets/img/IMG_5336.JPG);
+  background-size: cover;
+  width: 330px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 80vh;
+  border-radius: 10px;
+  background-color: aliceblue;
+  box-shadow: 1px 1px 9px 1px black;
+  margin-top: 30px;
 }
 
 .section {
+  border-radius: 10px;
   position: fixed;
-  top: 30px;
+  top: 60px;
   a {
     text-decoration: none;
-    color: red;
-    margin: 20px;
+    color: #21415f;
+    margin: 5px;
+    padding: 2px;
   }
 }
